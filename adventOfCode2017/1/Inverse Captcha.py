@@ -1,4 +1,4 @@
-from adventOfCode2017.common.Utils import readInput
+from adventOfCode2017.common.Utils import readInput, printOutput
 
 inputString = readInput("input.txt")
 
@@ -10,6 +10,4 @@ for char in inputString:
         result = result + int(char)
     lastChar = char
 
-print("Part One: " + str(result))
-
-print("Part Two: " + str(result))
+printOutput(result, result)
